@@ -1,0 +1,66 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: space-between;
+  text-align: center;
+  color: #222;
+  overflow: hidden;
+}
+
+form{
+  margin-top: 1rem;
+}
+
+a {
+  font-size: 1.5rem;
+  cursor: pointer;
+ 
+}
+
+a + a {
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+div {
+  margin: 2rem;
+}
+
+div > article {
+  cursor: pointer;
+}
+/* важно! см. ниже */
+div > article > * {
+  pointer-events: none;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+a{
+  text-decoration: none;
+}
+div{
+    width: 2000px;
+    height: 750px;
+
+}
+img{
+    width: 1500px;
+    height: 800px;
+
+}
+header{
+  background-color: orange;
+  text-align: center;
+
+}
+form{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
